@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.dhbw.trinat</groupId>
-	<artifactId>quizz</artifactId>
+	<artifactId>trinat-coulomb-EBAE</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -29,7 +29,7 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
-			</plugin>
+			</plugin>			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-jar-plugin</artifactId>
@@ -37,7 +37,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>de.dhbw.maven.App</mainClass>
+							<mainClass>de.dhbw.trinat.Main</mainClass>
 							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>
@@ -46,5 +46,4 @@
 		</plugins>
 	</build>
 
-
-</project> 
+</project>
