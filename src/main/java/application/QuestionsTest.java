@@ -11,10 +11,12 @@ public class QuestionsTest {
 	public void test() {
 
 		Questions f = new Questions();
+
 		int sizequestions = 100;  
 		int sizereponses = 100;
+
 		int random_size = f.getQuestions().size();
-		
+		 
 
 		assertEquals (f.getQuestions().size(), sizequestions );
 		assertEquals (f.getReponses().size(), sizereponses );
