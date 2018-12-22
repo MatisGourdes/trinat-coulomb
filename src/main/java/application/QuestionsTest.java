@@ -11,7 +11,7 @@ public class QuestionsTest {
 	public void test() {
 
 		Questions f = new Questions();
-		int sizequestions = 100; 
+		int sizequestions = 100;  
 		int sizereponses = 100;
 		int random_size = f.getQuestions().size();
 		
