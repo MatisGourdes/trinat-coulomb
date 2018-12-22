@@ -20,6 +20,16 @@ Es soll ein kleines Programm erstellt werden bei dem Fragen gestellt und die Ric
 ## 2. Build-Anleitung
 
 Git clone:  https://github.com/elisegebhard/trinat-EBAE
+In Git program: 
+1. Speichern Sie Ihre src Datei von Ihre Git Projekt auf Ihre Rechner.
+2. Löschen Sie Ihre src Datei von Ihre Git Projekt.
+3. Fügen Sie die pom.xml Datei mit die geeignete Initialiesierung in das Git Projekt.
+4. Fügen Sie die src Ordner von einen Maven Projekt in das Git Projekt.
+5. Klicken Sie auf den rechten Maus Taste in "trinat-EBAE": ->Configure ->Convert to Maven.
+6. Fügen Sie Ihre eigene Package in das Ordner src/main/java.
+7. Klicken Sie auf den rechten Maus Taste in "trinat-EBAE": ->Run as ->Maven clean.
+8. Klicken Sie auf den rechten Maus Taste in "trinat-EBAE": ->Run as ->Maven install.
+9. Prüfen Sie in das Ordner "target" ob Sie eine Datei .jar haben.
 
 ## 3. Bedienungsanleitung:
 1. Öffnen Sie das spiel.
@@ -108,6 +118,21 @@ Notenberechnung | 1h
 Design | 4h
 Testen | 3h
 
+## Umsetzung
+
+Start Seite | Frage Seite | End Seite
+---|---|---
+File| File|File
+Bedienungsanleitung | Frage/Anwort| Ergebnis
+Strat| Note|Start Seite/Wiederholungsversuch
+
+## Klassendiagramm
+
+|Quizz|Questions|
+|---|---|
+|Questions|QuestionsTest|                        
+
+
 ## Dokumentation wichtiger Code Snippets
 
   
@@ -116,6 +141,8 @@ Testen | 3h
 
 		return random.nextInt(questions.size());
 	}
+	
+Diese Methode gibt eine Zufallszahl von 0 bis die grösse von questions. Questions ist in der andere Klasse "Questions" in eine ArrayList gespeichert.
 
 **Array Lists**
 	public ArrayList<String> getQuestions() {
@@ -125,7 +152,9 @@ Testen | 3h
 	public ArrayList<String> getReponses() {
 		return reponses;
 	}
-	
+
+Diese Methode bekommen wir "die questions" oder "reponses" von der ArrayList. 
+
 **Pane**
 	Pane createCenterPane() {
 
@@ -140,7 +169,13 @@ Testen | 3h
 
 		return boxTop;
 	}
-	
+
+Diese Methode zeigt wie die Center Panel gebaut ist. Zuerst gibt es eine Text. 
+Dieses Text hat die originale Schrifftarte, dünn geschrieben und 15 grösse. 
+Dieses Text ist in Farbe "Crimson" geschrieben.
+HBox ist eine neue Layout Klasse um das Text zu zeigen.
+Dieses neues Layout Klasse ist unten, mitte positioniert.
+
 ***
 Projekt Mechatronik Trinational Promotion Coulomb Dez. 2018
 
