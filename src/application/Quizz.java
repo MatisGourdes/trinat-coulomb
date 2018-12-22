@@ -304,7 +304,6 @@ public class Quizz extends Application {
 
 	public static void main(String[] args) {
 		launch(args);
-
 	}
 
 
