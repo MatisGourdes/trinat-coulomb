@@ -1,5 +1,4 @@
 # trinat-coulomb
-# trinat-coulomb
 **Quizz Project**
 ***
 Elise Gebhard, Emilie Gehl, Aurélien Rosenkranz, Bastien Perrissoud
@@ -21,23 +20,13 @@ Es soll ein kleines Programm erstellt werden bei dem Fragen gestellt und die Ric
 ## 2. Build-Anleitung
 
 Git clone:  https://github.com/elisegebhard/trinat-EBAE
-In Git program: 
-1. Speichern Sie Ihre src Datei von Ihre Git Projekt auf Ihre Rechner.
-2. Löschen Sie Ihre src Datei von Ihre Git Projekt.
-3. Fügen Sie die pom.xml Datei mit die geeignete Initialiesierung in das Git Projekt.
-4. Fügen Sie die src Ordner von einen Maven Projekt in das Git Projekt.
-5. Klicken Sie auf den rechten Maus Taste in "trinat-EBAE": ->Configure ->Convert to Maven.
-6. Fügen Sie Ihre eigene Package in das Ordner src/main/java.
-7. Klicken Sie auf den rechten Maus Taste in "trinat-EBAE": ->Run as ->Maven clean.
-8. Klicken Sie auf den rechten Maus Taste in "trinat-EBAE": ->Run as ->Maven install.
-9. Prüfen Sie in das Ordner "target" ob Sie eine Datei .jar haben.
 
 ## 3. Bedienungsanleitung:
 1. Öffnen Sie das spiel.
 2. Klicken Sie auf starten um zu beginnen. 
 3. Antworten Sie auf die Frage.
-4. Klicken Sie auf „Vérifier“ um das Resultat zu korrigieren. 
-5. Klicken sie auf „Suivant“ um die nächste Frage zu sehen. 
+4. Klicken Sie auf „vérifier“ um das Resultat zu korrigieren. 
+5. Klicken sie auf „suivant“ um die nächste Frage zu sehen. 
 6. Wiederholen Sie die Schritte 3 bis 5.
 7. Zum Schluss bekommen Sie Ihre Note, und können auf die Startseite zurück gehen.
 8. Sie können immer mit „Ctrl+X“ das Spiel schließen oder mit „File -> Exit“.
@@ -57,15 +46,13 @@ US  |SP | Priorität | Akzeptanzkriterium
 
 
 **Story Points:** 8
-
 **Ziele:**
- * Unterhalten des Kunden
-* Allgemeinbildung verbessern 
-
+- Unterhalten des Kunden
+- Allgemeinbildung verbessern
 **Features:**
- * Fragen stellen
- * Antworten prüfen 
- * Ergebnis und Gefühl geben
+- Fragen stellen
+- Antworten prüfen 
+- Ergebnis und Gefühl geben
 
 ## 5. Releaseplan mit den Ausbaustufen
 
@@ -78,8 +65,8 @@ US1 bis US 6 |US7
 
 User Story 1 | Als Benutzer möchte ich mich Unterhalten während 5 Minuten um neue allgemeine Bildung zu lernen | Zeitaufwandschätzung
 ---|---|---
-Task 1 | 100 Fragen suchen und implementiert | 1 Stunde 
-Task 2 | 100 Antworten suchen und implementiert | 1 Stunde 
+Task 1 | 100 Fragen suchen und implementiert | 1 Stunde
+Task 2 | 100 Antworten suchen und implementiert | 1 Stunde
 
 User Story 2 | Als Benutzer möchte ich für alle meine Antworten wissen, ob sie richtig war oder nicht um mich zu bewerten | Zeitaufwandschätzung
 ---|---|---
@@ -121,20 +108,6 @@ Notenberechnung | 1h
 Design | 4h
 Testen | 3h
 
-## Umsetzung
-
-Start Seite | Frage Seite | End Seite
----|---|---
-File| File|File
-Bedienungsanleitung | Frage/Anwort| Ergebnis
-Strat| Note|Start Seite/Wiederholungsversuch
-
-## Klassendiagramm
-
-|Quizz|Questions|
-|---|---|
-|Questions|QuestionsTest|                        
-
 ## Dokumentation wichtiger Code Snippets
 
   
@@ -144,8 +117,6 @@ Strat| Note|Start Seite/Wiederholungsversuch
 		return random.nextInt(questions.size());
 	}
 
-Diese Methode gibt eine Zufallszahl von 0 bis die grösse von questions. Questions ist in der andere Klasse "Questions" in eine ArrayList gespeichert.
-
 **Array Lists**
 	public ArrayList<String> getQuestions() {
 		return questions;
@@ -154,8 +125,6 @@ Diese Methode gibt eine Zufallszahl von 0 bis die grösse von questions. Questio
 	public ArrayList<String> getReponses() {
 		return reponses;
 	}
-
-Diese Methode bekommen wir "die questions" oder "reponses" von der ArrayList. 
 	
 **Pane**
 	Pane createCenterPane() {
@@ -171,14 +140,7 @@ Diese Methode bekommen wir "die questions" oder "reponses" von der ArrayList.
 
 		return boxTop;
 	}
-
-Diese Methode zeigt wie die Center Panel gebaut ist. Zuerst gibt es eine Text. 
-Dieses Text hat die originale Schrifftarte, dünn geschrieben und 15 grösse. 
-Dieses Text ist in Farbe "Crimson" geschrieben.
-HBox ist eine neue Layout Klasse um das Text zu zeigen.
-Dieses neues Layout Klasse ist unten, mitte positioniert.
-
 	
 ***
-Projekt Mechatronik Trinational Promotion Coulomb Dez. 2018 
+Projekt Mechatronik Trinational Promotion Coulomb Dez. 2018
 
