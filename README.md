@@ -3,6 +3,18 @@
 ***
 Elise Gebhard, Emilie Gehl, Aurélien Rosenkranz, Bastien Perrissoud
 
+# Inhaltverzeichnis
+
+## 1. Einleitung
+## 2. Build-Anleitung
+## 3. Bedienungsanleitung
+## 4. Userstory
+## 5. Releaseplan mit den Ausbaustufen
+## 6. Taskliste für die Umsetzung der User Story
+## 7. Umsetzung
+## 8. Klassendiagramm
+## 9. Dokumentation wichtiger Code Snippets
+
 # Software Engineering
 
 ## 1. Einleitung
@@ -10,7 +22,7 @@ Unser Projekt ist eine Quizz für Personen zwischen 6-99 Jahre. Man kann alleine
 ### Ziele
 Es soll ein kleines Programm erstellt werden bei dem Fragen gestellt und die Richtige Lösung angezeigt werden. Die Verwendung des Programms soll auf dem Desktop eines MAC, Windows oder Linux Computer ausgeführt werden können.
 
-### Randbedingungen:
+### Randbedingungen
 - Die Programmierung der Anwendung soll in JAVA erfolgen.
 - Die Klassen des Programms sollen über die entsprechenden Unit-Tests verfügen.
 - Das Projekt soll auf GitHub veröffentlich werden.
@@ -31,7 +43,7 @@ In Git program:
 8. Klicken Sie auf den rechten Maus Taste in "trinat-EBAE": ->Run as ->Maven install.
 9. Prüfen Sie in das Ordner "target" ob Sie eine Datei .jar haben.
 
-## 3. Bedienungsanleitung:
+## 3. Bedienungsanleitung
 1. Öffnen Sie das spiel.
 2. Klicken Sie auf starten um zu beginnen. 
 3. Antworten Sie auf die Frage.
@@ -41,7 +53,7 @@ In Git program:
 7. Zum Schluss bekommen Sie Ihre Note, und können auf die Startseite zurück gehen.
 8. Sie können immer mit „Ctrl+X“ das Spiel schließen oder mit „File -> Exit“.
 
-## 4. Userstory:
+## 4. Userstory
 
 
 US  |SP | Priorität | Akzeptanzkriterium 
@@ -118,7 +130,7 @@ Notenberechnung | 1h
 Design | 4h
 Testen | 3h
 
-## Umsetzung
+## 7. Umsetzung
 
 Start Seite | Frage Seite | End Seite
 ---|---|---
@@ -126,14 +138,14 @@ File| File|File
 Bedienungsanleitung | Frage/Anwort| Ergebnis
 Strat| Note|Start Seite/Wiederholungsversuch
 
-## Klassendiagramm
+## 8. Klassendiagramm
 
 |Quizz|Questions|
 |---|---|
 |Questions|QuestionsTest|                        
 
 
-## Dokumentation wichtiger Code Snippets
+## 9. Dokumentation wichtiger Code Snippets
 
   
 **Random Methode**
