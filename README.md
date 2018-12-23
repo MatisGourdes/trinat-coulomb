@@ -31,7 +31,7 @@ Es soll ein kleines Programm erstellt werden bei dem Fragen gestellt und die Ric
 
 ## 2. Build-Anleitung
 
-Git clone:  https://github.com/elisegebhard/trinat-EBAE
+Git clone:  https://github.com/elise67/trinat-coulomb
 In Git program: 
 1. Speichern Sie Ihre src Datei von Ihre Git Projekt auf Ihre Rechner.
 2. Löschen Sie Ihre src Datei von Ihre Git Projekt.
